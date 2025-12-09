@@ -1,8 +1,20 @@
 # BI at Work - Análisis de Datos de Netflix
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791.svg)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)
+![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)
+
 ## Descripción
 
 Proyecto de Business Intelligence desarrollado como parte de la **Maestría en Business Intelligence & Analytics** de la **Universidad Galileo**. Este proyecto implementa un proceso ETL (Extract, Transform, Load) completo para analizar el catálogo de películas y series de Netflix.
+
+## 🔗 Enlaces a Resultados
+
+- **📊 [Análisis Exploratorio de Datos (EDA)](https://qualityanalytics.net/wp-content/uploads/2025/06/EDA_peliculas_netflix.html)** - Reporte completo generado con Pandas Profiling
+- **📈 [Dashboard en Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjA5YjFmODktMzAwZi00NzkxLWJjYjctNWE0ZWY2ZTFjZDhiIiwidCI6IjVkMjFhNmQ1LWIzODMtNGUxMi1hYjFiLTY3YTUxNWZmM2RhOCIsImMiOjR9)** - Visualización interactiva de los datos de Netflix
 
 ## Estructura del Proyecto
 
@@ -10,7 +22,6 @@ Proyecto de Business Intelligence desarrollado como parte de la **Maestría en B
 ├── proyecto_library.py          # Biblioteca con funciones ETL
 ├── ETL Proyecto.ipynb           # Notebook principal del proceso ETL
 ├── EDA.ipynb                    # Notebook de Análisis Exploratorio de Datos
-├── EDA_peliculas_netflix.html   # Reporte HTML del análisis exploratorio
 ├── db_scripts.sql               # Scripts SQL para configurar el esquema estrella
 ├── LICENSE.txt                  # Licencia CC0 1.0 Universal
 └── README.md                    # Este archivo
